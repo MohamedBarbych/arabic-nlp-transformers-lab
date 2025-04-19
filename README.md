@@ -38,6 +38,7 @@ It is divided into two main parts:
 
 ### ✅ Objective
 Build a semantic classifier that evaluates the **relevance of Arabic news** headlines.
+![image](https://github.com/user-attachments/assets/e66a1280-7354-47a4-ac97-0953da5ff78e)
 
 ### 🔧 Models Used:
 - RNN
@@ -50,6 +51,7 @@ Build a semantic classifier that evaluates the **relevance of Arabic news** head
 - Stemming using `ISRIStemmer`
 - Stopword removal with NLTK
 - Discretization of semantic scores into 5 bins
+![image](https://github.com/user-attachments/assets/3e6525c2-ed5a-47e4-ab9d-79e2b31e6c6d)
 
 ### 🧠 Results (Summary):
 
@@ -90,6 +92,8 @@ Used `arabic_data.txt` with short political-style statements:
 
 **Input**: `المغرب`  
 **Output**: *(after fine-tuning)*  
+![image](https://github.com/user-attachments/assets/e3789b55-abf8-4b28-83bc-b021d8495b69)
+
 ```
 المغرب يواصل توسيع شراكاته الاقتصادية في المنطقة الإفريقية مع تعزيز دوره الدبلوماسي على المستوى الدولي.
 ```
